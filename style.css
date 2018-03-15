@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+body {
+ background-image: url("todo.jpg");
+ background-size: 100%;
+ width: 100%;
+ height: auto;
+ background-repeat: no-repeat;
+ color: rgb(255, 251, 251);
+ font-weight: bolder;
+ text-align: center;
+ font-size: x-large;
+ text-shadow: 2px 2px rgb(33, 3, 48);
+ 
+ }
+
+#Todo-form {
+ margin-top: 15%;
+  
+}
+#Todo-form :hover {
+    color: rgb(19, 18, 24);
+    letter-spacing: 1px;
+}
+#text-color { 
+    color: black;
+
+    
+}
+#list {
+    text-align: center;
+    margin-right: 20%;
+    display: block;
+
+}
